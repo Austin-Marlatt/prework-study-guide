@@ -1,10 +1,9 @@
-var topics = ["HTML","CSS","Git","JavaScript"];
-
-var randomtopic = topics[Math.floor(Math.random() * topics.length)];
+const topics = ["HTML","CSS","Git","JavaScript"];
+const randomtopic = topics[Math.floor(Math.random() * topics.length)];
 
 function ListTopics() {
    
-    for (var x = 0; x < topics.length; x++) {
+    for (let x = 0; x < topics.length; x++) {
 
         console.log(topics[x]);
 
