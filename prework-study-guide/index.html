@@ -29,15 +29,15 @@
           <li>Child Elements: Elements that are embedded in other elements.</li>
           <li>Parent Elements: Elements that have other elements embedded in them.</li>
           <b><li>User-Facing Elements:</li></b>
-            <ul><li>-Text</li>
-              <li>-Image</li>
-              <li>-Header</li>
-              <li>-List</li>
+            <ul><li>Text</li>
+              <li>Image</li>
+              <li>Header</li>
+              <li>List</li>
             </ul>
           <b><li>Non-user Facing Elements:</li></b>
-            <ul><li>-Meta related</li>
-              <li>-Content division</li>
-              <li>-Semanatic</li>
+            <ul><li>Meta related</li>
+              <li>Content division</li>
+              <li>Semanatic</li>
             </ul>
           <li>< head > element contains information, or Metadata, that helps the browser render the webpage.</li>
           <li>< body > element contains the content we want to show, or have the user interact with.</li>
@@ -45,12 +45,12 @@
           <li>SEO: Search Engine Optimization.</li>
           <b><li>Tags for < head >:</li></b>
             <ul>
-              <li>- < title >: Defines the title for a webpage. Important for SEO.</li>
-              <li>- < style >: Defines the CSS styles associated with a website.</li>
-              <li>- < base >: Defines the base URL for the page.</li>
-              <li>- < link >: Connects an external resource to the HTML document.</li>
-              <li>- < meta >: Defines metadata such as the character set, description, keywords, author, and viewport</li>
-              <li>- < script >: Embeds client-side scripts into the HTML document.</li>
+              <li> < title >: Defines the title for a webpage. Important for SEO.</li>
+              <li> < style >: Defines the CSS styles associated with a website.</li>
+              <li> < base >: Defines the base URL for the page.</li>
+              <li> < link >: Connects an external resource to the HTML document.</li>
+              <li> < meta >: Defines metadata such as the character set, description, keywords, author, and viewport</li>
+              <li> < script >: Embeds client-side scripts into the HTML document.</li>
             </ul>
               <b><li>Tags for < body ></li></b>
             <ul>
@@ -87,7 +87,7 @@
         <br />
           <b><li>Git Work Flow:</li></b>
         <ul>
-          <b>
+          
           <li>(git checkout -b new-branch-name) to move current branch to a new one.</li>
           <li>Before coding, use (git status) to verify location, and (git pull origin main) to ensure local branch is up to date.</li>
           <li>(git add -A) to add all changes to the local staging area. </li>
@@ -96,8 +96,8 @@
           <li>(git push origin new-branch-name) will push your local branch into the remote repository.</li>
           <li>In GitHub, select new-branch-name, then, "compare & pull request".</li>
           <li>Add a name and description to PR, designate base branch and compare branch.</li>
-          <li>Upon succsessful review, Merge to base branch.</li>
-          </b>
+          <li>Upon succsessful review, merge to base branch.</li>
+          
         </ul>
 
       </section>
@@ -108,7 +108,7 @@
         <br>
       </br>
         <ul>
-          <li>3 ways of stylng a webpage with CSS:</li>
+          <li><b>3 ways of stylng a webpage with CSS:</b></li>
             <ul>
             <li><b>Inline CSS:</b> Applies to a specific HTML tag, using a style attribute with a CSS rule to style a single element.</li>
             <li><b>Internal Style Sheet:</b> Contains CSS rules for the webpage in the head section, applies only to that page.</li>
@@ -129,7 +129,7 @@
           <img class="CSS-box-model" src="./assets/310-box-model.png" alt="Picture of a CSS box model." />
           <br>
       </br>
-          <p style="font-size:25px;">Pictured above is the <b>CSS Box Model<b>.</p>
+          <p style="font-size:25px;">Pictured above is the <b>CSS Box Model</b>.</p>
           <p><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">Everything you need to know about the Box Model.</a></p>
 
       </section>
@@ -140,7 +140,47 @@
         <br>
       </br>
         <ul>
-          <li>
+          <li><b>JavaScript:</b> A high-level dynamic programming language that allows users to interact with the web application.</li>
+          <li><b>Control Flow:</b> The order in which a computer executes code in a script, in JavaScript, it reads top to bottom.</li>
+          <li><b>Variable:</b> A container for storing information, can be assigned a value.</li>
+            <ul>
+              <li>A variable can be declared in 4 ways: Automatically, ver, let (can be changed), const (cannot be changed).</li>
+              <li>Must be given an Identifier with a unique name.</li>
+            </ul>
+
+            <br>
+
+          <li><b>Value:</b> The assigned type of data associated with a variable. The data can be of many varieties such as:
+            <ul>
+              <li><b>String:</b> A sequence of text, must be enclosed in single <b>( '' )</b> or double <b>("")</b> qoutes.</li>
+              <li><b>Number:</b> A number does not have qoutes around it.</li>
+              <li><b>Boolean:</b> This is a True/False value. <b>true</b> and <b>false</b> are both special keywords that also don't require qoutes.</li>
+              <li><b>Object:</b> Everything in JavaScript is an object and can be stored in a variable.</li>
+              <li><b>Array:</b> A structure that allows you to store multiple values in a single reference.
+                <ul>
+                  <li><i>Example:</i> let myvariable = [<i>string,number,string,number</i>]</li>
+                  <li>An Array must put all values in brackets <b>( [ ] )</b></li>
+                  <li>Values on an array must be called with their position: <b>myvariable[0-?]</b></li>
+                </ul>
+
+              <br>
+
+            </ul>
+          <li><b>Operators:</b> Used to assign values, compare values, perform arithmetic operations, and more.</li>
+            <ul>
+              <li><b>Arithmetic Operators:</b> Addition (+), Subtraction (-), Multiplication (*), Exponentiation (**), Division (/), Remainder (%), Increment (++), Decrement (--)
+              <li><b>Assignment  Operator:</b> Used to assign a Value to a Variable (=) Can be used in conjuncture with Arithmetic Operators.
+              <li><b>Comparison Operators: (<i>All Return Boolean values</i></b>) Equal to (==), Equal value and type (===), Not Equal (!=), Not equal value or type (!==), Greater than / Less than (> / <), Greater/Less or equal to (>= / <=)</li>
+              <li><a href = https://www.w3schools.com/jsref/jsref_operators.asp><b>There are many more property types</a></b></li>
+            </ul>
+              
+              <br>
+
+          <li><b>Conditionals:</b> Code structures used to test if an exspression retuens true or not. <i>if...else</i></li>
+          <li><b>Functions:</b> A way of packing functionality for reuse.
+          <li><b>Browser Application Interfaces (API):</b> Built into web browsers, providing functionality such as dynamically creating HTML and CSS styles; collecting and manipluating a video stream from a user's webcam, or generating 3D graphics and audio samples.</li>
+          <li><b>Third-Party API's:</b> Allows developers to incorporate functionality in sites from other content providers, such as Twitter and Facebook.</li>
+        </ul>
 
       </section>
 
